@@ -1,0 +1,90 @@
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.team .col-lg-4 {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider{ 
+    margin: 3rem 0;
+}
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+#addContact{
+    background-color: darkgray;
+    color: black;
+    width: 25%;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: cursive;
+    padding-bottom: 30px;
+}
+
+body{
+    background-color: gray;
+    font-family: cursive;
+}
+
+#refresh{
+    background-color: darkgray;    
+    color: black;
+    height: 30px;
+    width: 25%;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: cursive;
+    padding-bottom: 30px;
+}
+
+img{
+    border-radius: 4px;
+    width: 70px;
+}
+
+#phone td{
+    border: 1px solid black;
+    padding: 10px;
+}
+#phone{
+    width: 100%;
+}
+
+#phone tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+#buttons{
+    text-align: center;
+    padding-top: 20px;
+    
+    }
